@@ -6,7 +6,7 @@
     <title>Criando soluções</title>
 </head>
 <body>
-    <h1>Kaio</h1>
+    <h1>Novidades.</h1>
     <p>I'm hosted with GitHub Pages.</p>
 </body>
 </html>
