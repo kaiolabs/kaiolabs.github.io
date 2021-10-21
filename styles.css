@@ -3,7 +3,6 @@
 
     body{
 
-        background-color: lightslategray;
         font-family: arial, helvetica, sans-serif;
         font-size: 12px;
 
@@ -44,16 +43,6 @@
         background-color:#fff;
         display:none;
 
-        }
-
-    .menu li:hover ul, .menu li.over ul{display:block;}
-
-    .menu li ul li{
-
-        border:1px solid #c0c0c0;
-        display:block;
-        width:150px;
-        
         }
 
         
