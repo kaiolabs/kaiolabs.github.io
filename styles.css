@@ -15,7 +15,6 @@
 
         #menu-h ul {
 
-            max-width: 800px;
             list-style: none;
             padding: 0;
         }
@@ -36,11 +35,5 @@
 
         #menu-h ul li a:hover {
 
-            background-color: rgb(24, 139, 233);
-        }
-
-        #menu-h ul li:last-child a {
-            
-            float: right;
             background-color: rgb(24, 139, 233);
         }
