@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
     body{
+
             margin: 0 auto;
             padding: 0;
             box-sizing: border-box;
@@ -8,20 +9,24 @@
         }
 
         #menu-h{
+
             background-color: rgb(37, 37, 39);
         }
 
         #menu-h ul {
+
             max-width: 800px;
             list-style: none;
             padding: 0;
         }
 
         #menu-h ul li {
+
             display: inline;
         }
 
         #menu-h ul li a {
+
             color: #FFF;
             padding: 20px;
             display: inline-block;
@@ -30,10 +35,12 @@
         }
 
         #menu-h ul li a:hover {
+
             background-color: rgb(24, 139, 233);
         }
 
         #menu-h ul li:last-child a {
+            
             float: right;
             background-color: rgb(24, 139, 233);
         }
