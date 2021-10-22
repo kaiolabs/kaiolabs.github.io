@@ -29,4 +29,7 @@
             transition: background .4s;
         }
 
+        #menu-h ul li a:hover {
+            background-color: rgb(24, 139, 233);
+        }
 
