@@ -8,7 +8,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Open Sans', sans-serif;
-            background-color: rgb(88, 196, 196);
+            background-color: lightslategrey;
             
         }
 
@@ -39,14 +39,14 @@
 
         #menu-h ul li a:hover {
 
-            background-color: rgb(24, 139, 233);
+            background-color: lightslategrey;
         }
 
     /* Header/Blog Title */
     .header {
 
-        background-color: rgb(88, 196, 196);
-        padding: 15px;
+        background-color: lightslategrey;
+        padding: 1px;
         text-align: center;
 
         }
