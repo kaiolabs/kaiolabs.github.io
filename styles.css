@@ -39,13 +39,13 @@
 
         #menu-h ul li a:hover {
 
-            background-color: lightslategrey;
+            background-color: rgb(15, 201, 15);
         }
 
     /* Header/Blog Title */
     .header {
 
-        background-color: lightslategrey;
+        background-color: rgb lightslategrey;
         padding: 1px;
         text-align: center;
 
