@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-    
 
     body{
         
@@ -9,13 +8,13 @@
             padding: 0;
             box-sizing: border-box;
             font-family: 'Open Sans', sans-serif;
-            background-color: lightslategrey;
+            background-color: white;
             
         }
 
         #menu-h{
 
-            background-color: rgb(37, 37, 39);
+            background-color: #282A35;
         }
 
         #menu-h ul {
@@ -40,20 +39,21 @@
 
         #menu-h ul li a:hover {
 
-            background-color: rgb(61, 206, 61);
+            background-color: #04AA6D;
         }
 
     /* Header/Blog Title */
     .header {
 
-        background-color: rgb lightslategrey;
-        padding: 1px;
+        background-color: white;
+        font-size: 20px;
+        padding: 5px;
         text-align: center;
 
         }
 
     .header h1 {
-        font-size: 50px;
+        font-size: 35px;
         }
           
     /* Style the top navigation bar */
@@ -102,9 +102,11 @@
           
     /* Add a card effect for articles */
     .card {
-        background-color: white;
+        background-color: #E7E9EB;
         padding: 20px;
         margin-top: 20px;
+        border-radius:10px;
+        
         }
           
     /* Clear floats after the columns */
@@ -113,6 +115,19 @@
         display: table;
         clear: both;
         }
+
+    /* Footer */
+    .footer {
+    background-color: #282A35;
+    padding: 5px;
+    color: #FFF;
+    text-align:left;
+    font-size: 10px;
+    font-family: Arial;
+
+    margin-top: 5px;
+  }
+  
           
     /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 800px) {
