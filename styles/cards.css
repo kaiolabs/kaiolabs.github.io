@@ -1,0 +1,23 @@
+/* Create two unequal columns that floats next to each other */
+
+    /* Left column */
+    .leftcolumn {   
+        margin-left: auto;
+        margin-right: auto;
+        width: 96%;
+    }
+            
+    /* Add a card effect for articles */
+    .card {
+        background-color: #E7E9EB;
+        padding: 25px;
+        margin-top: 25px;
+        border-radius:3px;            
+        }
+
+    .card_s1 {
+        background-color: #D9EEE1;
+        padding: 25px;
+        margin-top: 25px;
+        border-radius:5px;            
+        }

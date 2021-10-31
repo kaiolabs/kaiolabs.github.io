@@ -4,48 +4,17 @@
     body{
         
         
-            margin: 0 auto;
-            box-sizing: border-box;
-            font-family: 'Open Sans', sans-serif;
-            background-color: white;
+        margin: auto;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+        background-color: #282c34;
             
-        }
-
-        /* Header/Blog Title */
-        .header {
-
-        background-color: white;
-        font-size: 20px;
-        padding: 5px;
-
         }
 
         .header h1 {
             font-size: 35px;
             }
             
-        /* Create two unequal columns that floats next to each other */
-        /* Left column */
-        .leftcolumn {   
-            margin-left: auto;
-            margin-right: auto;
-            width: 96%;
-            }
-            
-        /* Fake image */
-        .fakeimg {
-            background-color: #aaa;
-            width: 50%;
-            padding: 15px;
-            }
-            
-        /* Add a card effect for articles */
-        .card {
-            background-color: #E7E9EB;
-            padding: 25px;
-            margin-top: 25px;
-            border-radius:10px;            
-            }
             
         /* Clear floats after the columns */
         .row:after {

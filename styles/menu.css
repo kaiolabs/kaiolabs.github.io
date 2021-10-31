@@ -1,6 +1,6 @@
     #menu-h{
 
-        background-color: white;
+        background-color: #ffffff;
         
     }
 
@@ -14,6 +14,7 @@
     #menu-h ul li {
 
         display: inline;
+        
     }
 
     #menu-h ul img {
@@ -24,7 +25,7 @@
 
     #menu-h ul li a {
 
-        color: rgb(0, 0, 0);
+        color: #000000;
         font-size: 20px;
         font-family: Verdana,sans-serif;
         padding: 8px;
