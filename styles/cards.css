@@ -4,20 +4,34 @@
     .leftcolumn {   
         margin-left: auto;
         margin-right: auto;
-        width: 96%;
+        width: 100%;
     }
             
     /* Add a card effect for articles */
     .card {
-        background-color: #E7E9EB;
-        padding: 25px;
-        margin-top: 25px;
-        border-radius:3px;            
+        background-color: #282A35;
+        color: white;
+        padding: 55px; 
+        text-align: center;  
         }
 
     .card_s1 {
-        background-color: #D9EEE1;
-        padding: 25px;
-        margin-top: 25px;
-        border-radius:5px;            
+        background-color: #aceec5;
+        color: black;
+        padding: 55px;
+        text-align: center;  
+        }
+
+    .card_s2 {
+        background-color: #FFF4A3;;
+        color: black;
+        padding: 55px; 
+        text-align: center;      
+        }
+
+    .card_s3 {
+        background-color: #96D4D4;
+        color: black;
+        padding: 55px;
+        text-align: center;  
         }
