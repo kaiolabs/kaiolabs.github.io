@@ -4,10 +4,10 @@
     body{
         margin: auto;
         font-family: 'Open Sans', sans-serif;
-        background-color: #282A35; 
+        background-color: #ffffff; 
     }
 
-    h1{
+    .leftcolumn h1{
         font-size: 35px;
     }
 
