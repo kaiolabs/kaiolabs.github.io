@@ -3,9 +3,7 @@
         background-color: #04AA6D;
         border-radius: 19px;
         color: #000000;
-        font-family: Arial;
         text-decoration: none;
-        text-align: center;
         font-size: 18px;
         font-family: 'Source Sans Pro', sans-serif;
         padding-top: 8px;
@@ -15,4 +13,6 @@
         
     }
 
-    .button_00 a:hover {background-color: #06925f}
+    .button_00 a:hover {
+        background-color: #06925f
+    }
