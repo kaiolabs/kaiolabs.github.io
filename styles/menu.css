@@ -31,3 +31,29 @@ ul{
     background-color: #04AA6D;
   }
 
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+.Contents ul {
+
+    width: 250px;
+    height: auto;
+    list-style-type: none;
+    padding: 1% 0% 100% 0%;
+    background-color: #f1f1f1;
+  }
+  
+  .Contents ul li a {
+    margin-inline-end: 60px;
+
+    color: #101010;
+  }
+  
+  .Contents ul li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .Contents ul li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
