@@ -7,7 +7,6 @@ ul{
     overflow: hidden;
     background-color: #282A35;
     position: -webkit-sticky;
-    position: sticky;
     top: 0;
   }
   
@@ -33,27 +32,31 @@ ul{
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-.Contents ul {
 
-    width: 250px;
-    height: auto;
-    list-style-type: none;
-    padding: 1% 0% 100% 0%;
-    background-color: #f1f1f1;
-  }
-  
-  .Contents ul li a {
-    margin-inline-end: 60px;
+.titulo{
+  margin-top: 60px;
+  font-size: 33px;
+  text-align: center;
+  font-family: 'Source Sans Pro', sans-serif;
+}
 
-    color: #101010;
-  }
-  
-  .Contents ul li a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
-  .Contents ul li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
+img{
+  max-width: 100%;
+  display: block;
+}
+
+.select_conteudos{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight:bolder;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.select_conteudos div{
+flex: 1 1 200px;
+margin: 15px;
+text-align: center;
+
+}
