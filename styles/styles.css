@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+    html, body {
+        min-height: 100%;
+    }
 
     body{
         margin: 0;
-        padding: 0px;
+        padding: 0;
         font-family: 'Open Sans', sans-serif;
-        background-color: #ffffff; 
+        background-color: #ffffff;
+        position: relative;
+
     }
 
     .leftcolumn h1{
@@ -22,19 +27,16 @@
         clear: both;
     }
 
-    /* Change color on hover */
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black;
-    }
-
     /* Footer */
-    .footer {
+    footer {
         background-color: #282A35;
-        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         color: #FFF;
         text-align:left;
         font-size: 10px;
         font-family: Arial;
-        margin-top: auto;
+        width: 100%;
+        bottom: 0;
+        
     }
