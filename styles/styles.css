@@ -9,7 +9,7 @@
         padding: 0;
         font-family: 'Open Sans', sans-serif;
         background-color: #ffffff;
-        position: relative;
+
 
     }
 
@@ -20,23 +20,17 @@
     .leftcolumn p {
         margin: 30px;
     }
-            
-    /* Clear floats after the columns */
-    .row:after {
-        display: table;
-        clear: both;
-    }
+
 
     /* Footer */
     footer {
         background-color: #282A35;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 15px;
+        padding-bottom: 15px;
         color: #FFF;
         text-align:left;
-        font-size: 10px;
+        font-size: 17px;
         font-family: Arial;
         width: 100%;
-        bottom: 0;
-        
+        bottom:0;
     }

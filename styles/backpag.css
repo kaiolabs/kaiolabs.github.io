@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 
-    background: linear-gradient(120deg, #282A35, #04AA6D ,#03ca81, #04AA6D, #282A35);
+    background: linear-gradient(125deg, #aceec5, #04AA6D ,#03ca81,#04AA6D, #04AA6D, #aceec5);
     background-size: 250% 250%;
     animation: degrad 10s ease infinite ;
 

@@ -35,7 +35,7 @@ ul{
 
 .titulo{
   margin-top: 60px;
-  font-size: 33px;
+  font-size: 45px;
   text-align: center;
   font-family: 'Source Sans Pro', sans-serif;
 }
@@ -43,6 +43,7 @@ ul{
 img{
   max-width: 100%;
   display: block;
+  ;
 }
 
 .select_conteudos{
@@ -50,13 +51,13 @@ img{
   font-weight:bolder;
   display: flex;
   flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
 .select_conteudos div{
-flex: 1 1 200px;
-margin: 15px;
+flex: 1 1 50px;
+margin: 25px;
 text-align: center;
 
 }
