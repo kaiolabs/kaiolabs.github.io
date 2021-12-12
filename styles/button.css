@@ -13,6 +13,17 @@
         
     }
 
+    .button_01{
+
+        background-color: #04AA6D;
+        border-radius: 5px;
+        color: #000000;
+        font-size: 18px;
+        font-family: 'Source Sans Pro', sans-serif;
+        padding: 15px 30px 15px 30px;
+        
+    }
+
     .button_00 a:hover {
         background-color: #06925f
     }

@@ -61,3 +61,24 @@ margin: 25px;
 text-align: center;
 
 }
+/*-----------------------------------------------------------------------*/
+
+.Alignment{
+  background-color: white;
+  display: flex;
+  flex-direction:column;
+  max-width: 1000px;
+  margin: 0 auto;
+  
+  }
+
+  .ads{
+    background-color: bisque;
+  }
+
+  .navigation_bar{
+    background-color: ivory;
+    padding: 20px;
+    margin-top: 50px;
+    list-style: none;
+  }
