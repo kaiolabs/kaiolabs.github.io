@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-    html, body {
-        min-height: 100%;
-    }
+html{
+    position:relative; 
+    min-height: 100%;
+  }
 
     body{
         margin: 0;
         padding: 0;
         font-family: 'Open Sans', sans-serif;
         background-color: #ffffff;
-
 
     }
 
@@ -21,16 +21,17 @@
         margin: 30px;
     }
 
-
     /* Footer */
     footer {
         background-color: #282A35;
         padding-top: 15px;
         padding-bottom: 15px;
         color: #FFF;
-        text-align:left;
         font-size: 17px;
         font-family: Arial;
-        width: 100%;
-        bottom:0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+
     }
