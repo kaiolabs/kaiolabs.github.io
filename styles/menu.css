@@ -74,11 +74,12 @@ img{
   flex-direction:column;
   max-width: 70%;
   margin: 0 auto;
+  padding-bottom: 100px;
   
   }
 
   .ads{
-    background-color: bisque;
+    /* background-color: bisque; */
   }
 
   .navigation_bar{
@@ -93,12 +94,29 @@ img{
   }
 
   .linha_baixo{
-    padding-bottom: 35px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+  }
+  
+  .borda1{
+    padding-top: 15px;
+    border-top: 1px solid #CCC;
+    padding-bottom: 15px;
     border-bottom: 1px solid #CCC;
   }
 
   .Alignment h1{
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .Alignment h2{
+    font-size: 40px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .lista{
+    display: flex;
+    flex-direction:column;
   }
