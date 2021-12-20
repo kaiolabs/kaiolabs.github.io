@@ -85,12 +85,13 @@ footer {
   }
 
 .Alignment h3{
-    font-size: 35px;
+    font-size: 30px;
     font-family: 'Nunito Sans', sans-serif;
   }
 
 .lista{
-    padding-bottom: 50px;
+    line-height: 155%;
+    padding-bottom: 15px;
     display: flex;
     flex-direction:column;
   }
@@ -102,27 +103,32 @@ footer {
     }
 
 .fundo_exemplo h2{
-    padding-left: 22px;
+    padding-left: 23px;
     font-size: 28px;
     font-family: 'Nunito Sans', sans-serif;
+}
+
+.fundo_exemplo p{
+  padding-left: 23px;
+  padding-right: 23px;
 }
 
 .fundo_cod{
     padding-top: 15px;
     padding-bottom: 15px;
-    line-height: 8px;
+    line-height: 105%;
     border-radius: 5px;
     margin: 0 auto;
     max-width: 900px;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .orange{
-    color: orangered;
+    color: #ff4500;
 }
 
 .blue{
-    color: #003d83;
+    color: #105aae;
 }
 
 .blue1{
@@ -130,5 +136,5 @@ footer {
 }
 
 .tomato{
-    color: tomato;
+    color: #ff2600;
 }
