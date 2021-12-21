@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/menu.css">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8770127165007462" crossorigin="anonymous"></script>
-
 </head>
 <body>
 
@@ -44,10 +42,9 @@
                 <li>Os elementos HTML informam ao navegador como exibir o conteúdo.</li>
                 <li>HTML é a linguagem de marcação padrão para a criação de páginas da web.</li>
                 <li>Os elementos HTML identificam partes de conteúdo como "isto é um título", "isto é um parágrafo", "isto é um link", etc.</li>
-                <p class="linha_baixo"></p>
             </div>
 
-            <h3>Iniciando um arquivo em HTML 5</h3>
+            <h3 class="linha_topo">Iniciando um arquivo em HTML 5</h3>
 
             <div class="fundo_exemplo">
                 <h2>Exemplo</h2>
@@ -60,7 +57,6 @@
                         <p><span class="tomato"><</span><span class="blue">meta</span><span class="blue1"> http-equiv</span> = <span class="orange">"X-UA-Compatible"</span> <span class="blue1">content</span> = <span class="orange">"IE=edge"</span><span class="tomato">></span></p>
                         <p><span class="tomato"><</span><span class="blue">meta</span><span class="blue1"> name</span> = <span class="orange">"viewport"</span><span class="blue1"> content</span> = <span class="orange">"width=device-width, initial-scale=1.0"</span><span class="tomato">></span></p>
                         <p><span class="tomato"><</span><span class="blue">title</span><span class="tomato">></span>   Titulo da pagina   <span class="tomato"><</span><span class="blue">/title</span> <span class="tomato">></span></p>
-                        
                     </div>
                     <p><span class="tomato"><</span><span class="blue">/head</span><span class="tomato">></span></p>
                     <p><span class="tomato"><</span><span class="blue">body</span><span class="tomato">></span></p>
@@ -70,6 +66,53 @@
                 </div>
                 <p>Não se preocupe com todo esse código, pois, caso esteja utilizando o Visual Studio Code ele fará automática esse código para você, basta digitar "html:5" e aperta enter.</p>
             </div>
+            <h3 class="linha_topo">Detalhando o código.</h3>
+            <div class="lista">
+                <li>O  <span class="green"><</span><span class="green">!DOCTYPE</span><span class="green"> html</span><span class="green">></span> é a declaração que define o documento como HTML5.</li>
+                <li>O  <span class="green"><</span><span class="green">html</span><span class="green">></span> é o elemento raiz de uma página HTML.</li>
+                <li>O  <span class="green"><</span><span class="green">head</span><span class="green">></span> é o elemento que contém as metainformações sobre a página HTML.</li>
+                <li>O  <span class="green"><</span><span class="green">meta</span><span class="green">></span> define qualquer informação de metadados que não podem ser definidos por outros elementos HTML. </li>
+                <li>O  <span class="green"><</span><span class="green">title</span><span class="green">></span> especifica um título para a página HTML, que é mostrado na barra de título do navegador ou na guia da página.</li>
+                <li>O  <span class="green"><</span><span class="green">body</span><span class="green">></span> é o elemento que define o corpo do documento e é um contêiner para todo o conteúdo visível da página.</li>
+                <li>O  <span class="green"><</span><span class="green">h1</span><span class="green">></span> é um título de nível 1.</li>
+            </div>
+
+            <div style=" line-height: 135%;"> 
+                <h3 style=" line-height: 130%;" class="linha_topo">O que é uma tag HTML ?</h3>
+                <p>A expressão “tag” significa literalmente “etiqueta”. Uma etiqueta é usada para marcar ou identificar algo, como a etiqueta de preços no mercado por exemplo.</p>
+                <p>No HTML5, as tags tem o mesmo objetivo: marcar elementos. Ou seja, determinar onde um elemento começa e onde ele termina. Isso é muito apropriado, afinal “HTML” significa Linguagem de Marcação de Hipertexto.</p>
+                <p>Há dois tipos de tags:</p>
+                <p>1) As que precisam de fechamento:</p>
+                <p style=" line-height: 130%;" class="demo_size"><span class="tomato"><</span><span class="blue">p</span><span class="tomato">></span>    Parágrafo em html   <span class="tomato"><</span><span class="blue">/p</span> <span class="tomato">></span></p>
+                <p style=" line-height: 130%;" class="demo_size"><span class="tomato"><</span><span class="blue">h1</span><span class="tomato">></span>    Título em html   <span class="tomato"><</span><span class="blue">/h1</span> <span class="tomato">></span></p>
+                <p style=" line-height: 130%;" class="demo_size"><span class="tomato"><</span><span class="blue">li</span><span class="tomato">></span>    Lista em html   <span class="tomato"><</span><span class="blue">/li</span> <span class="tomato">></span></p>
+                <p>2) As que se fecham sozinhas (self-closing):</p>
+                <p style=" line-height: 130%;" class="demo_size"><span class="tomato"><</span><span class="blue">meta</span><span class="tomato">></span></p>
+                <p style=" line-height: 130%;" class="demo_size"><span class="tomato"><</span><span class="blue">link</span><span class="tomato">></span></p>
+                <p style=" line-height: 130%;" class="demo_size"><span class="tomato"><</span><span class="blue">img</span><span class="tomato">></span></p>
+                <p style=" line-height: 130%;" class="demo_size"><span class="tomato"><</span><span class="blue">br</span><span class="tomato">></span></p>
+            </div >
+
+            <div style=" line-height: 125%;"> 
+                <h3 style=" line-height: 130%;" class="linha_topo">O que é um elemento HTML ?</h3>
+                <p>Um elemento HTML é definido por uma tag de inicial, algum conteúdo e uma tag final:</p>
+                <p style=" line-height: 130%;" class="demo_size"><span class="tomato"><</span><span class="blue">tagInicial</span><span class="tomato">></span>    Conteúdo   <span class="tomato"><</span><span class="blue">/tagFinal</span> <span class="tomato">></span></p>
+                <p>Na prática:</p>
+                <p class="demo_size"><span class="tomato"><</span><span class="blue">h1</span><span class="tomato">></span>   Olá, Mundo   <span class="tomato"><</span><span class="blue">/h1</span> <span class="tomato">></span></p>
+            </div >
+            <br>
+            <div class="aviso">
+                <p>AVISO: Alguns elementos HTML não têm conteúdo (como o elemento <span class="tomato"><</span><span class="tomato">br</span><span class="tomato">></span> ). Esses elementos são chamados de elementos vazios. Os elementos vazios não possuem uma tag de finalização!</p>
+            </div>
+            <p class="linha_baixo"></p>
+            <div class="aviso">
+                <p>Este tutorial segue o padrão HTML5 mais recente.</p>
+            </div>
+            <p class="linha_topo"></p>
+            <nav style="margin-top: 10px;" class="navigation_bar" >
+                <li class="button_01"> <a onclick="location.href = document.referrer;">Voltar</a> </li>
+                <li class="button_01" style="float:right"> <a class="hav" href="#">Avança</a></li>
+            </nav>
         </div>
     </div>
 
