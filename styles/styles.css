@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lora&family=Nunito+Sans:wght@200&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
 
 html{
     position:relative; 
@@ -14,12 +14,9 @@ body{
     background-color: #ffffff;
     }
 
-.leftcolumn h1{
-    font-size: 35px;
-    }
-.leftcolumn p {
-    margin: 30px;
-    }
+.pag_inicio{
+  line-height: 250%;
+  }
 
 footer {
     background-color: #282A35;
@@ -64,6 +61,15 @@ footer {
   padding-bottom: 10px;
   border-bottom: 1px solid #CCC;
   }
+
+  .linha_baixo2{
+    margin-left: 6%;
+    margin-right: 6%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CCC;
+    
+    }
+
   
 .borda1{
   padding-top: 15px;
@@ -150,4 +156,30 @@ footer {
   border-radius: 8px;
   padding: 15px;
   background-color: #aceec5;
+}
+
+.intro1{
+  padding-top: 50px;
+  line-height: 250%;
+  color: white;
+  flex: 2 2 30px;
+  margin: 10px 100px 35px 50px;
+  font-size: 20px;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+ 
+}
+
+.intro2{
+  padding-top: 2%;
+  flex: 1 1 30px;
+  margin: 10px 50px 35px 50px;
+  text-align: center;
+}
+
+.styleparagrafo{
+  color: white;
+  font-size: 20px;
+  font-family: 'Asap', sans-serif;
+  
 }

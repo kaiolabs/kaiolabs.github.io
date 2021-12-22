@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
 
 .button_00 p a {
 
@@ -8,7 +9,7 @@
     color: #000000;
     text-decoration: none;
     font-size: 18px;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     padding: 13px 25px 13px 25px;
         
     }
