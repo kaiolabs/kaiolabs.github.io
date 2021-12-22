@@ -18,6 +18,10 @@ body{
   line-height: 250%;
   }
 
+.pag_inicio h1{
+  font-family: 'Asap', sans-serif;
+  }
+
 footer {
     background-color: #282A35;
     padding-top: 15px;
@@ -159,6 +163,7 @@ footer {
 }
 
 .intro1{
+  padding-left: 40px;
   padding-top: 50px;
   line-height: 250%;
   color: white;
