@@ -2,6 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Lora&family=Nunito+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap');
 
+/* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #04AA6D #282A35;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #282A35;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #04AA6D;
+  border-radius: 20px;
+  border: 3px solid #282A35;
+}
+
+
 html{
     position:relative; 
     min-height: 100%;
@@ -30,12 +52,13 @@ footer {
     font-size: 17px;
     font-family: Arial;
     position: absolute;
+    margin: 0;
     bottom: 0;
     left: 0;
     right: 0;
     }
 
-/* ------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------ */
 
 .Alignment{
   background-color: white;
@@ -51,14 +74,22 @@ footer {
     /* background-color: bisque; */
   }
 
-.navigation_bar{
+  .navigation_bar{
   margin-top: 90px;
   list-style: none;
   }
 
+
+/* ------------------------------------------------------------------------------------------ */
+
 .linha_topo{
   padding-top: 25px;
   border-top: 1px solid #CCC;
+  }
+
+.linha_topo2{
+  margin: 0px;
+  border-top: 3px solid #04AA6D;
   }
 
 .linha_baixo{
@@ -66,21 +97,24 @@ footer {
   border-bottom: 1px solid #CCC;
   }
 
-  .linha_baixo2{
-    margin-left: 6%;
-    margin-right: 6%;
-    padding-bottom: 10px;
-    border-bottom: 1px solid #CCC;
-    
-    }
+.linha_baixo2{
+  border-bottom: 1px solid #CCC;
+  }
 
-  
+.linha_baixo3{
+  margin: 0;
+  border-bottom: 1px solid #04AA6D;
+  }
+
+
 .borda1{
   padding-top: 15px;
   border-top: 1px solid #CCC;
   padding-bottom: 15px;
   border-bottom: 1px solid #CCC;
   }
+
+/* ------------------------------------------------------------------------------------------ */
 
 .Alignment h1{
   text-align: center;
@@ -97,6 +131,8 @@ footer {
   font-size: 30px;
   font-family: 'Nunito Sans', sans-serif;
   }
+
+/* ------------------------------------------------------------------------------------------ */
 
 .lista{
   line-height: 155%;
@@ -132,6 +168,8 @@ footer {
     background-color: white;
 }
 
+/* ------------------------------------------------------------------------------------------ */
+
 .orange{
   color: #ff4500;
 }
@@ -156,6 +194,8 @@ footer {
   font-size: 25px;
 }
 
+/* ------------------------------------------------------------------------------------------ */
+
 .aviso{
   border-radius: 8px;
   padding: 15px;
@@ -164,7 +204,7 @@ footer {
 
 .intro1{
   padding-left: 40px;
-  padding-top: 50px;
+  padding-top: 20px;
   line-height: 250%;
   color: white;
   flex: 2 2 30px;
@@ -182,9 +222,57 @@ footer {
   text-align: center;
 }
 
+.intro2 img{
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.intro3{
+  padding-left: 40px;
+  padding-top: 50px;
+  line-height: 0%;
+  color: white;
+  flex: 1 1 250px;
+  margin: 10px 100px 35px 50px;
+  font-size: 40px;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+ 
+}
+
+.intro4{
+  color: white;
+  flex: 2 2 250px;
+  margin: 10px 50px 35px 50px;
+  text-align: center;
+}
+
+.intro4 h1{
+padding-bottom: 20px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
 .styleparagrafo{
   color: white;
   font-size: 20px;
   font-family: 'Asap', sans-serif;
   
 }
+
+.text{
+  padding-top: 100px;
+  padding-bottom: 80px;
+  color: white;
+  margin: 0px;
+  background-color: #282A35;
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Asap', sans-serif;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------------ */

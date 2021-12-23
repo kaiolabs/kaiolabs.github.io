@@ -6,7 +6,7 @@
 
     background-color: #04AA6D;
     border-radius: 19px;
-    color: #000000;
+    color: white;
     text-decoration: none;
     font-size: 18px;
     font-family: 'Ubuntu', sans-serif;
@@ -31,3 +31,9 @@
 .button_01 a:hover {
     background-color: #06925f
     }
+
+.grow:hover{
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
