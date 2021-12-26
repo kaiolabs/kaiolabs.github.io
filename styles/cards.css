@@ -55,8 +55,7 @@
     -webkit-transform: scale(2.0);
     -ms-transform: scale(2.0);
     transform: scale(2.0);
-
-}
+    }
 
 .card_s6{
     background-color: #282A35;
@@ -77,9 +76,7 @@
     position: relative;
     display: flex;
     flex-wrap:wrap;
-
-  
-}
+    }
 
 .cardanimado_unity{
     text-align: center;
@@ -90,25 +87,33 @@
     padding-right: 20px;
     overflow: hidden;
     color: white;
-    height: 400px;
+    height: 420px;
     width: 280px;
     border-radius: 15px;
-    margin: 30px;
+    margin: 40px;
     background-color: #282A35;
     box-shadow: 20px 20px 50px #00000080;
     border-top: 1px solid #ffffff80;
     border-left: 1px solid #ffffff80;
-}
+    }
 
 .cardanimado div p{
-    padding-top: 150px;
+    line-height: 130%;
+    padding-top: 190px;
     
-}
+    }
+
 .cardanimado div h1 {
     position: absolute;
     top: -50px;
     right: 50px;
     font-size: 100px;
     color: #ffffff80;
+    }
 
-}
+.cardanimado div h3{
+    position: absolute;
+    padding-top: 140px;
+    border-bottom: 1px solid white;
+    
+    }

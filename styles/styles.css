@@ -33,7 +33,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
-    background-color: #ffffff;
+    background-color: white;
     }
 
 .pag_inicio{
@@ -84,21 +84,21 @@ footer {
 
 .linha_topo{
   padding-top: 25px;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #04AA6D;
   }
 
 .linha_topo2{
-  margin: 0px;
-  border-top: 3px solid #04AA6D;
+  margin: 0;
+  border-top: 1px solid #04AA6D;
   }
 
 .linha_baixo{
   padding-bottom: 10px;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #04AA6D;
   }
 
 .linha_baixo2{
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #04AA6D;
   }
 
 .linha_baixo3{
@@ -106,14 +106,17 @@ footer {
   border-bottom: 1px solid #04AA6D;
   }
 
-
 .borda1{
   padding-top: 15px;
-  border-top: 1px solid #CCC;
+  border-top: 1px solid #04AA6D;
   padding-bottom: 15px;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #04AA6D;
   }
 
+.borda1{
+  border-top: 1px solid #04AA6D;
+  border-bottom: 1px solid #04AA6D;
+    }
 /* ------------------------------------------------------------------------------------------ */
 
 .Alignment h1{
