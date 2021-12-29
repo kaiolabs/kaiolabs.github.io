@@ -111,10 +111,6 @@ footer {
   border-bottom: 1px solid #04AA6D;
   }
 
-.borda1{
-  border-top: 1px solid #04AA6D;
-  border-bottom: 1px solid #04AA6D;
-    }
 /* ------------------------------------------------------------------------------------------ */
 
 .Alignment h1{
@@ -145,8 +141,15 @@ footer {
 .fundo_exemplo{
   background-color: #E7E9EB;
   border-radius: 9px;
-  max-width: 1000px;
+  }
+
+.fundo_exemplo2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #E7E9EB;
+  border-radius: 9px;
     }
+
 
 .fundo_exemplo h2{
   padding-left: 23px;
